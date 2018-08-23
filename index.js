@@ -16,5 +16,6 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
-  let travel = function distanceTravelledInFeet(start, end)
+  let travel = distanceTravelledInFeet(start, end);
+  
 }
