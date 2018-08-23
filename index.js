@@ -23,5 +23,8 @@ function calculatesFarePrice(start, end) {
   } elsif (travel > 400 && travel < 2000) {
     cost = (travel - 400)*.2
   }
+  elsif (travel > 2000 && travel < 2500) {
+    cost = (travel - 400)*.2
+  }
   return cost;
 }
