@@ -21,4 +21,5 @@ function calculatesFarePrice(start, end) {
   if (travel <= 400){ 
     cost = 0 
   }
+  return cost;
 }
