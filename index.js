@@ -19,13 +19,13 @@ function calculatesFarePrice(start, end) {
   let cost;
   let travel = distanceTravelledInFeet(start, end);
   if (travel <= 400){ 
-    cost = 0 
+    cost = 0;
   } elsif (travel > 400 && travel < 2000) {
-    cost = (travel - 400)*.2
+    cost = (travel - 400)*.2;
   } elsif (travel > 2000 && travel < 2500) {
-    cost = 25
+    cost = 25;
   } else {
-    cost = 'cannot travel that far'
+    cost = 'cannot travel that far';
   }
   return cost;
 }
