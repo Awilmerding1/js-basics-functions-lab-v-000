@@ -22,9 +22,11 @@ function calculatesFarePrice(start, end) {
     cost = 0 
   } elsif (travel > 400 && travel < 2000) {
     cost = (travel - 400)*.2
-  }
-  elsif (travel > 2000 && travel < 2500) {
+  } elsif (travel > 2000 && travel < 2500) {
     cost = 25
+  } else {
+    cost = 'cannot travel that far'
   }
+  
   return cost;
 }
