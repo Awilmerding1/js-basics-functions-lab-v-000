@@ -14,3 +14,7 @@ function distanceTravelledInFeet(start, end) {
   let travel = start > end ? (start - end)*264 : (end - start)*264;
   return travel;
 }
+
+function calculatesFarePrice {
+  
+}
