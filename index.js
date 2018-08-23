@@ -11,5 +11,5 @@ function distanceFromHqInFeet (distance) {
 }
 
 function distanceTravelledInFeet(start, end) {
-  
+  let travel = dist
 }
